@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
 <head>
-  <title></title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="index.css">
-  <script type="text/javascript" href="index.js"/>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
+<!-- partial:index.partial.html -->
 <div id="errors" style="
   background: #c00;
   color: #fff;
@@ -45,5 +47,9 @@ console.error = (function(old) {
   }
 })(console.error);
 </script>
+<!-- partial -->
+  <script src='https://unpkg.com/react@16/umd/react.development.js'></script>
+<script src='https://unpkg.com/react-dom@16/umd/react-dom.development.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
