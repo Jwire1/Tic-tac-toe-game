@@ -52,7 +52,7 @@ class Game extends React.Component {
 
 
       stepNumber: 0,
-      bIsNext: true };
+      xIsNext: true };
 
   }
 
