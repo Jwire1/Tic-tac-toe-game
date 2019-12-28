@@ -52,7 +52,7 @@ class Game extends React.Component {
 
 
       stepNumber: 0,
-      xIsNext: true };
+      bIsNext: true };
 
   }
 
@@ -102,7 +102,7 @@ class Game extends React.Component {
     if (Champion) {
       status = "Champion: " + Champion;
     } else {
-      status = "Next player: " + (this.state.xIsNext ? "J" : "B");
+      status = "Next player: " + (this.state.bIsNext ? "J" : "B");
     }
 
     return (
