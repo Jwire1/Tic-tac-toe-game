@@ -52,7 +52,7 @@ class Game extends React.Component {
 
 
       stepNumber: 0,
-      xIsNext: true };
+      bIsNext: true };
 
   }
 
@@ -63,7 +63,7 @@ class Game extends React.Component {
     if (calculateWinner(squares) || squares[i]) {
       return;
     }
-    squares[i] = this.state.xIsNext ? "J" : "B";
+    squares[i] = this.state.bIsNext ? "J" : "B";
     this.setState({
       history: history.concat([
       {
